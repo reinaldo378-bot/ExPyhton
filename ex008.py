@@ -1,0 +1,10 @@
+#Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
+print ('Calculadora de conversão')
+pulalinha = ('=')
+print ('{:=^24}'.format(pulalinha))
+m = float(input('Digite um valor em metro(m): '))
+print ('{:=^30}'.format(pulalinha))
+cm = float(m*100)
+mm = float(m*1000)
+print ('O valor {:.2f}m, em centímetro é {:.2f}cm.'.format(m, cm))
+print ('O valor {:.2f}m, em milímetro é {:.2f}mm.'.format(m, mm))
