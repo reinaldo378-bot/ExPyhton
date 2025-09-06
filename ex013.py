@@ -8,3 +8,10 @@ print ('{:-^50}'.format(qbl))
 print ('Salário com aumento: {:.2f}.'.format(aum))
 rdp = ('^')
 print ('{:^^50}'.format(rdp))
+
+
+
+
+#Opções para:
+# pular linha \n
+# omitir variáveis, coloca direto no print --> print('... {} e {}.'.format((variavel1 - variavel2), (variavel3 * variavel4))
