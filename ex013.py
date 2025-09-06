@@ -1,0 +1,10 @@
+# Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento.
+qbç = ('v')
+print ('{:v^50}'.format(qbç))
+si = float(input('Salário inicial: '))
+aum = float(si*1.15)
+qbl = ('-')
+print ('{:-^50}'.format(qbl))
+print ('Salário com aumento: {:.2f}.'.format(aum))
+rdp = ('^')
+print ('{:^^50}'.format(rdp))
