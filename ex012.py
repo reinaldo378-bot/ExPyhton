@@ -1,0 +1,11 @@
+# Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
+qbç = ('v')
+print ('{:v^55}'.format(qbç))
+p1 = float(input('Digite o valor do produto: '))
+qbl = ('-')
+print ('{:-^55}'.format(qbl))
+dsc = float(0.05*p1)
+p2 = float(p1-dsc)
+print ('Preço: {} / Desconto {} / Preço Final: {:.2f}.'.format(p1 , dsc , p2))
+rdp = ('^')
+print ('{:^^55}'.format(rdp))
